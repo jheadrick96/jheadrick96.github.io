@@ -6,6 +6,12 @@ html, body {
     height: 100%;
 }
 
+video {
+    z-index: 1000;
+    left: 604px;
+    width: 250px;
+}
+
 a {
     color: inherit;
 }
