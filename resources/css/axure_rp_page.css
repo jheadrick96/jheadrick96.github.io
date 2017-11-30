@@ -6,16 +6,19 @@ html, body {
     height: 100%;
 }
 
-video {
+.theVid {
     z-index: 1000;
     left: 604px;
     width: 250px;
 }
 
 button{
+    width: auto;
+/*
      z-index: 1000;
     left: 604px;
     position: absolute;
+*/
 }
 
 a {
