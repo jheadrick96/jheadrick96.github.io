@@ -12,6 +12,12 @@ video {
     width: 250px;
 }
 
+button{
+     z-index: 1000;
+    left: 604px;
+    position: absolute;
+}
+
 a {
     color: inherit;
 }

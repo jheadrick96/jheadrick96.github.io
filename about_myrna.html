@@ -51,11 +51,19 @@
         </div>
       </div>
       
-    <video width="420" controls autoplay style="z-index: 1000; left: 608px; top:400px; position: absolute;">
+    <video id="#movie1" width="420" controls style="z-index: 1000; left: 608px; top:400px; position: absolute;">
       <source src="files/about_myrna/ThePen.mp4" type="video/mp4">
       Your browser does not support HTML5 video.
     </video>
-     
+        <button style="z-index: 1005;" id='playMovie1'>Play</button>
+        
+        <script>
+       $( document ).ready(function() {
+            $('#playMovie1').click(function(){
+    document.getElementById('#movie1').play();
+        });
+        });       
+        </script>
       <!-- Unnamed (Rectangle) -->
       <div id="u382" class="ax_default heading_3">
         <div id="u382_div" class=""></div>
