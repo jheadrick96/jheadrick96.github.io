@@ -1,5 +1,6 @@
 /* so the window resize fires within a frame in IE7 */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Amiri');
 
 html, body {
     height: 100%;
