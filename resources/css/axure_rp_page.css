@@ -1,10 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Amiri');
 
-.theVid {
+.clear
+{
+    clear:both;
+}
+
+.theVid  {
     z-index: 1200;
     top:250px;
     position: absolute;
+}
+
+.theVid video{
+    width:180px;
+    position: relative;
+}
+
+.theVid img{
+   position: relative;
+    top: -40px;
+    padding: 3px;
+    width:10px;
 }
 
 #vid2 {
@@ -17,55 +34,6 @@
     top:200px;
 }
 
-
-#movie1
-{
-    position: relative;
-    left: 0;
-    width: 253px;
-    height: 141px;
-}
-
-
-#movie2
-{
-    position: relative;
-    left: 0;
-    top: 0px;
-    width: 253px;
-    height: 141px;
-}
-
-#movie3
-{
-    left: 0;
-    width: 253px;
-    height: 141px;
-}
-
-#movie4
-{
-    left: 0;
-    position: relative;
-    width: 253px;
-    height: 141px;
-}
-
-#movie5
-{
-    left: 0;
-    position: relative;
-    width: 253px;
-    height: 141px;
-}
-
-#movie6
-{
-    left: 0;
-    position: relative;
-    width: 253px;
-    height: 141px;
-}
 
 #name{
     position: absolute;

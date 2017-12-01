@@ -1,4 +1,4 @@
-﻿body {
+body {
   margin:0px;
   background-image:none;
   position:static;
@@ -3634,6 +3634,15 @@ body.a {  background-color:rgba(255, 255, 255, 1);
   background-color:rgba(255, 255, 255, 0);
   background-image:none;
 }
+
+#tester.burrito {
+    background: #fc0 !important;
+    padding: 1em !important;
+    font-size: 80px;
+    display: block;
+    visibility: visible;
+}
+
 #u456.a {
   left:121px;
   top:5186px;
@@ -3661,6 +3670,7 @@ body.a {  background-color:rgba(255, 255, 255, 1);
   width:249px;
   height:221px;
 }
+
 #u456_text.a {
   width:249px;
 }

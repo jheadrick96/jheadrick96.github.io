@@ -20,6 +20,32 @@
       $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
       $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
     </script>
+    
+    <script>
+        
+            $(document).ready(function() {
+                $("#playMovie1").click(function(){
+                   
+                    document.getElementById('movie1').play();
+          
+                });
+                $('#pauseMovie1').click(function(){
+                    document.getElementById('movie1').pause();
+                });
+                
+                $("#playMovie2").click(function(){
+                   
+                    document.getElementById('movie2').play();
+          
+                });
+                $('#pauseMovie2').click(function(){
+                    document.getElementById('movie2').pause();
+                });
+            });
+        
+        
+        </script>
+    
   </head>
   <body>
     <div id="base" class="">
@@ -43,15 +69,22 @@
 
 <!--       /* VIDEO 1 */-->
 <div class="theVid" id="vid1">
+    <img id="playMovie1" src="images/about_myrna/play.png"/>
+    <img id="pauseMovie1" src="images/about_myrna/pause.png"/>
+       
         <video id="movie1" width="420">
           <source src="files/about_myrna/ThePen.mp4" type="video/mp4">
           Your browser does not support HTML5 video.
         </video>
+        
+<!--
         <button style="z-index: 1005;" class="Play" id='playMovie1'>Play</button>
         <button style="z-index: 1005;" class="Pause" id='pauseMovie1'>Pause</button>
+-->
 
     </div>  
         
+<!--
     <script>
        $( document ).ready(function() {
             $('#playMovie1').click(function(){
@@ -62,6 +95,7 @@
         });
         });       
     </script> 
+-->
 <!--/* END VIDEO 1 */-->
        
        
