@@ -1,4 +1,93 @@
-﻿/* so the window resize fires within a frame in IE7 */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Amiri');
+
+.theVid {
+    z-index: 1200;
+    top:250px;
+    position: absolute;
+}
+
+#movie1
+{
+    left: 0;
+    top: 513px;
+    width: 253px;
+    height: 141px;
+}
+
+#movie2
+{
+    left: 0;
+    top: -100px;
+    width: 253px;
+    height: 141px;
+}
+
+#movie3
+{
+    left: 0;
+    top: -100px;
+    width: 253px;
+    height: 141px;
+}
+
+#movie4
+{
+    left: 0;
+    top: 100px;
+    position: relative;
+    width: 253px;
+    height: 141px;
+}
+
+#movie5
+{
+    left: 0;
+    top: 50px;
+    position: relative;
+    width: 253px;
+    height: 141px;
+}
+
+#movie6
+{
+    left: 0;
+    top: 0px;
+    position: relative;
+    width: 253px;
+    height: 141px;
+}
+
+#name{
+    position: absolute;
+    top: 100px;
+    left:500px
+    font-family: Roboto-Regular, Roboto;
+    font-size: 14px;
+    color: #6d0303;
+}
+
+button{
+    width: auto;
+    z-index: 1000;
+    position: absolute;
+/*
+     z-index: 1000;
+    left: 604px;
+    position: absolute;
+*/
+}
+
+.Play {
+   left: 0px; 
+}
+.Pause {
+   left: 50px; 
+}
+
+
+
+/* so the window resize fires within a frame in IE7 */
 html, body {
     height: 100%;
 }
