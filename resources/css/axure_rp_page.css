@@ -7,17 +7,23 @@
     position: absolute;
 }
 
+#vid2 {
+    top:200px;
+}
+#vid4 {
+    top:350px;
+}
+#vid6 {
+    top:200px;
+}
+
+
 #movie1
 {
     position: relative;
     left: 0;
-    top: 200px;
     width: 253px;
     height: 141px;
-}
-
-.theVid:nth-child(2) {
-    top: -50px;
 }
 
 
@@ -33,7 +39,6 @@
 #movie3
 {
     left: 0;
-    top: -100px;
     width: 253px;
     height: 141px;
 }
@@ -41,7 +46,6 @@
 #movie4
 {
     left: 0;
-    top: 100px;
     position: relative;
     width: 253px;
     height: 141px;
@@ -50,7 +54,6 @@
 #movie5
 {
     left: 0;
-    top: 50px;
     position: relative;
     width: 253px;
     height: 141px;
@@ -59,7 +62,6 @@
 #movie6
 {
     left: 0;
-    top: 0px;
     position: relative;
     width: 253px;
     height: 141px;
