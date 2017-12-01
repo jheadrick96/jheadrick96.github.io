@@ -1,10 +1,5 @@
-/* so the window resize fires within a frame in IE7 */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Amiri');
-
-html, body {
-    height: 100%;
-}
 
 .theVid {
     z-index: 1000;
@@ -19,6 +14,12 @@ button{
     left: 604px;
     position: absolute;
 */
+}
+
+
+/* so the window resize fires within a frame in IE7 */
+html, body {
+    height: 100%;
 }
 
 a {
