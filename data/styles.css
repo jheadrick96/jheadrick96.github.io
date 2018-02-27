@@ -9,27 +9,40 @@
 }
 .box_1 {
 }
+.box_2 {
+}
+.box_3 {
+}
+.ellipse {
+}
+.shape {
+}
 .image {
 }
+.placeholder {
+}
+.button {
+}
 .heading_1 {
-  font-family:'ArialMT', 'Arial';
+  font-family:'LyonText-Regular', 'Lyon Text';
   font-weight:bold;
   font-style:normal;
   font-size:32px;
   text-align:left;
 }
 .heading_2 {
-  font-family:'ArialMT', 'Arial';
-  font-weight:bold;
+  font-family:'Amiri-Regular', 'Amiri';
+  font-weight:400;
   font-style:normal;
-  font-size:24px;
+  font-size:32px;
   text-align:left;
+  line-height:36px;
 }
 .heading_3 {
-  font-family:'ArialMT', 'Arial';
-  font-weight:bold;
+  font-family:'Roboto-Regular', 'Roboto';
+  font-weight:400;
   font-style:normal;
-  font-size:18px;
+  font-size:16px;
   text-align:left;
 }
 .heading_4 {
@@ -53,5 +66,18 @@
   text-align:left;
 }
 .paragraph {
+  font-family:'Roboto-Light', 'Roboto Light', 'Roboto';
+  font-weight:200;
+  font-style:normal;
+  font-size:14px;
   text-align:left;
+}
+.flow_shape {
+}
+.line {
+}
+.radio_button {
+  text-align:left;
+}
+.icon {
 }
